@@ -11,7 +11,7 @@ The provided `Beatles.ttl` file demonstrates the RDF representation of a music g
 - Details a song "Love Me Do" with attributes like length and writers.
 
 (Example graph generated for `Beatles.ttl` from the `data/` directory.)
-![The Beatles Graph](graphs/Beatles.png)
+![The Beatles Graph](https://github.com/ItsTarikBTW/rdfVisualizer/blob/main/graphs/beatles.png)
 v1
 ![The Beatles Graph](graphs/Beatles_rdf_graph.png)
 
