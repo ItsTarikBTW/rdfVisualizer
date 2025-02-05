@@ -13,7 +13,7 @@ The provided `Beatles.ttl` file demonstrates the RDF representation of a music g
 (Example graph generated for `Beatles.ttl` from the `data/` directory.)
 ![The Beatles Graph](https://github.com/ItsTarikBTW/rdfVisualizer/blob/main/graphs/beatles.png)
 v1
-![The Beatles Graph](graphs/Beatles_rdf_graph.png)
+![The Beatles Graph v1](https://github.com/ItsTarikBTW/rdfVisualizer/blob/main/graphs/beatles_rdf_graph.png)
 
 ## How to Run
 
