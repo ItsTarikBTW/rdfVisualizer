@@ -1,0 +1,31 @@
+PREFIX : <http://chessworld.com/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:Magnus_Carlsen      rdf:type  :ChessPlayer .
+:Magnus_Carlsen      :name     "Magnus Carlsen" .
+:Magnus_Carlsen      :nationality "Norwegian" .
+:Magnus_Carlsen      :eloRating 2847 .
+:Magnus_Carlsen      :participatesIn   :World_Chess_Championship .
+
+:Hikaru_Nakamura     rdf:type  :ChessPlayer .
+:Hikaru_Nakamura     :name     "Hikaru Nakamura" .
+:Hikaru_Nakamura     :nationality "American" .
+:Hikaru_Nakamura     :eloRating 2736 .
+:Hikaru_Nakamura     :participatesIn   :Grand_Prix_Tournament .
+
+:Fabiano_Caruana     rdf:type  :ChessPlayer .
+:Fabiano_Caruana     :name     "Fabiano Caruana" .
+:Fabiano_Caruana     :nationality "American" .
+:Fabiano_Caruana     :eloRating 2820 .
+:Fabiano_Caruana     :participatesIn   :World_Chess_Championship .
+
+:World_Chess_Championship rdf:type  :Tournament .
+:World_Chess_Championship :name     "World Chess Championship" .
+:World_Chess_Championship :year     "2021"^^xsd:gYear .
+:World_Chess_Championship :location "Dubai" .
+
+:Grand_Prix_Tournament rdf:type  :Tournament .
+:Grand_Prix_Tournament :name     "Chess Grand Prix" .
+:Grand_Prix_Tournament :year     "2021"^^xsd:gYear .
+:Grand_Prix_Tournament :location "Berlin" .

@@ -1,0 +1,26 @@
+PREFIX : <http://got.example/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+:Jon_Snow         rdf:type   :Character .
+:Jon_Snow         :name      "Jon Snow" .
+:Jon_Snow         :belongsTo :Stark .
+:Jon_Snow         :title     "King in the North" .
+
+:Daenerys_Targaryen rdf:type :Character .
+:Daenerys_Targaryen :name    "Daenerys Targaryen" .
+:Daenerys_Targaryen :belongsTo :Targaryen .
+:Daenerys_Targaryen :title   "Mother of Dragons" .
+
+:Tyrion_Lannister rdf:type   :Character .
+:Tyrion_Lannister :name      "Tyrion Lannister" .
+:Tyrion_Lannister :belongsTo :Lannister .
+:Tyrion_Lannister :title     "Hand of the Queen" .
+
+:Stark           rdf:type   :House .
+:Stark           :name      "House Stark" .
+
+:Targaryen       rdf:type   :House .
+:Targaryen       :name      "House Targaryen" .
+
+:Lannister       rdf:type   :House .
+:Lannister       :name      "House Lannister" .
