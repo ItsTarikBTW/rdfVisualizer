@@ -1,0 +1,20 @@
+PREFIX : <http://onepiece.example/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+:Monkey_D_Luffy rdf:type :Character .
+:Monkey_D_Luffy :name "Monkey D. Luffy" .
+:Monkey_D_Luffy :affiliation :Straw_Hat_Pirates .
+:Monkey_D_Luffy :title "Captain" .
+
+:Roronoa_Zoro rdf:type :Character .
+:Roronoa_Zoro :name "Roronoa Zoro" .
+:Roronoa_Zoro :affiliation :Straw_Hat_Pirates .
+:Roronoa_Zoro :title "Swordsman" .
+
+:Nami rdf:type :Character .
+:Nami :name "Nami" .
+:Nami :affiliation :Straw_Hat_Pirates .
+:Nami :title "Navigator" .
+
+:Straw_Hat_Pirates rdf:type :Crew .
+:Straw_Hat_Pirates :name "Straw Hat Pirates" .

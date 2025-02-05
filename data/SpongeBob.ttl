@@ -1,0 +1,26 @@
+PREFIX : <http://spongebob.example/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+:SpongeBob_SquarePants rdf:type :Character .
+:SpongeBob_SquarePants :name "SpongeBob SquarePants" .
+:SpongeBob_SquarePants :occupation :FryCook .
+:SpongeBob_SquarePants :residence :BikiniBottom .
+
+:Patrick_Star rdf:type :Character .
+:Patrick_Star :name "Patrick Star" .
+:Patrick_Star :friend :SpongeBob_SquarePants .
+:Patrick_Star :residence :BikiniBottom .
+
+:Squidward_Tentacles rdf:type :Character .
+:Squidward_Tentacles :name "Squidward Tentacles" .
+:Squidward_Tentacles :occupation :Cashier .
+:Squidward_Tentacles :residence :BikiniBottom .
+
+:FryCook rdf:type :Occupation .
+:FryCook :name "Fry Cook" .
+
+:Cashier rdf:type :Occupation .
+:Cashier :name "Cashier" .
+
+:BikiniBottom rdf:type :Location .
+:BikiniBottom :name "Bikini Bottom" .

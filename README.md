@@ -11,9 +11,9 @@ The provided `Beatles.ttl` file demonstrates the RDF representation of a music g
 - Details a song "Love Me Do" with attributes like length and writers.
 
 (Example graph generated for `Beatles.ttl` from the `data/` directory.)
-![The Beatles Graph](https://github.com/ItsTarikBTW/rdfVisualizer/blob/main/graphs/beatles.png)
+![The Beatles Graph](https://github.com/ItsTarikBTW/rdfVisualizer/blob/main/graphs/beatles_v2_graph.png)
 v1
-![The Beatles Graph v1](https://github.com/ItsTarikBTW/rdfVisualizer/blob/main/graphs/beatles_rdf_graph.png)
+![The Beatles Graph v1](https://github.com/ItsTarikBTW/rdfVisualizer/blob/main/graphs/beatles_v1_graph.png)
 
 ## How to Run
 
@@ -24,7 +24,7 @@ v1
      Build and run the container with:
      ```
      docker build -t rdf-visualizer .
-     docker run --rm rdf-visualizer
+     docker run --rm -v ${PWD}:/app rdf_visualizer
      ```
     This will parse the Turtle files in the `data/` directory and generate graph images in the `graphs/` folder.
 

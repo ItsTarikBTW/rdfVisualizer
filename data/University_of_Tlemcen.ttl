@@ -1,0 +1,22 @@
+PREFIX : <http://tlemcen.example/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+:University_of_Tlemcen rdf:type :University .
+:University_of_Tlemcen :name "University of Tlemcen" .
+:University_of_Tlemcen :location "Tlemcen, Algeria" .
+
+:Faculty_of_Science rdf:type :Faculty .
+:Faculty_of_Science :name "Faculty of Science" .
+:University_of_Tlemcen :hasFaculty :Faculty_of_Science .
+
+:Department_of_Computer_Science rdf:type :Department .
+:Department_of_Computer_Science :name "Department of Computer Science" .
+:Faculty_of_Science :hasDepartment :Department_of_Computer_Science .
+
+:Faculty_of_Letters rdf:type :Faculty .
+:Faculty_of_Letters :name "Faculty of Letters" .
+:University_of_Tlemcen :hasFaculty :Faculty_of_Letters .
+
+:Department_of_History rdf:type :Department .
+:Department_of_History :name "Department of History" .
+:Faculty_of_Letters :hasDepartment :Department_of_History .
