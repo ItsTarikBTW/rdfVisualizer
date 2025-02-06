@@ -1,0 +1,17 @@
+PREFIX : <http://cinema.example/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+:Inception rdf:type :Movie .
+:Inception :title "Inception" .
+:Inception :releaseYear "2010" .
+:Inception :directedBy :Christopher_Nolan .
+:Inception :features :Leonardo_DiCaprio, :Joseph_Gordon_Levitt .
+
+:Christopher_Nolan rdf:type :Director .
+:Christopher_Nolan :name "Christopher Nolan" .
+
+:Leonardo_DiCaprio rdf:type :Actor .
+:Leonardo_DiCaprio :name "Leonardo DiCaprio" .
+
+:Joseph_Gordon_Levitt rdf:type :Actor .
+:Joseph_Gordon_Levitt :name "Joseph Gordon-Levitt" .
